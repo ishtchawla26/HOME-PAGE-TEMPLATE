@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100&family=Martel+Sans:wght@600;700&family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.template{
+    width: 1100px;
+    margin: 0 auto;
+}
+nav{
+    height: 50px;
+    width: auto;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.middle ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;}
+.middle ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.last i{
+    padding-right: 20px;
+   cursor: pointer;
+}
+.section1{
+    height: 500px;
+    width: 1100px;
+    background-image: url("https://www.shutterstock.com/image-photo/university-students-using-laptop-library-260nw-513694219.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 100%;
+    color: white;
+    position: relative;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+}
+.section1 h1{
+    text-transform: capitalize;
+    font-size: 70px;
+    line-height: 59px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50px;
+    left: 290px;
+}
+.section1 h5{
+    font-size: 15px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 100;
+    position: absolute;
+    top: 210px;
+    left: 260px;
+}
+.section1 button{
+    position: absolute;
+     top: 275px;
+    left: 450px;
+    font-size: 15px;
+    padding:  15px 25px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.mainpart{
+    height: 550px;
+    width: 1000px;
+    margin-left: 50px;
+}
+.top{
+    text-align: center;
+    padding-top: 40px;
+}
+.top h3{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.top h5{
+    font-size: 15px;
+    padding-top: 10px;
+    color: rgb(92, 92, 92)
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    height: 230px;
+    width: 350px;
+    border: 1px solid wheat;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+.box1{
+    background-color: rgb(109, 109, 251);
+    color: white;
+}
+.box2{
+    background-color: orange;
+    color: white;
+}
+.box3{
+    background-color: rgb(249, 2, 44);
+    color: white;
+}
+.box4{
+    background-color: rgb(61, 219, 213);
+    color: white;
+}
+.box5{
+    background-color: rgb(182, 2, 182);
+    color: white;
+}
+svg{
+    padding-top: 30px;
+}
+h3{
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+button{
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.footerpart{ 
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 1050px;
+}
+.right{
+    position: relative;
+}
+.right img{
+    height: 350px;
+    width: 400px;
+    margin: auto 30px;
+    position: relative;
+    z-index: 5;
+}
+.left {
+    padding-left: 5px;
+}
+.left h2{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.left h4{
+    text-transform: capitalize;
+    padding-top: 10px;
+    color: blue;
+    font-size: 20px;
+}
